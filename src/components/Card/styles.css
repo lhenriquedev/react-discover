@@ -1,0 +1,38 @@
+.card {
+  height: 6.125rem;
+  width: 50%;
+
+  background: #735bf2;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardInfo strong {
+  font-size: 1.125rem;
+  margin-right: 1rem;
+}
+
+.cardButtons {
+  width: 100%;
+}
+
+.button {
+  padding: 1rem;
+  border: none;
+  background-color: rgb(221, 92, 92);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
